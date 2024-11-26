@@ -1,0 +1,14 @@
+# This is a basic workflow to help you get started with Actions
+
+name: React Placeholder Workflow
+
+on:
+  push:
+    branches: [ "main" ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout Code
+      uses: actions/checkout@v4
